@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.heben.ecoride"
+
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1Ijoia2FuaXNoazAxIiwiYSI6ImNsc2d4endpZjFiOWsyaXBxNXlxbzJhc2IifQ.9ptlcm-JO-S6OBrA60acoQ"
+        }
+      ]
+    ]
   }
 }
